@@ -148,7 +148,8 @@ Get test USDC for your wallet (and for the operator, which pays the gas of inves
 | `npx tsx --env-file=.env scripts/fund-demo.ts 1` | Sends 1 USDC from the operator to each demo account. |
 
 To run on mainnet, set `ARC_NETWORK=mainnet` and `VITE_ARC_NETWORK=mainnet` once the mainnet addresses are in
-[`packages/core/src/config.ts`](packages/core/src/config.ts).
+[`packages/core/src/config.ts`](packages/core/src/config.ts). The Docker image and the server setup are in
+[docs/deploy.md](docs/deploy.md).
 
 ## Repository layout
 
